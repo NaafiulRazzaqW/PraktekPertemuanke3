@@ -25,3 +25,5 @@ class List extends Component {
     }
 }
 export default List;
+
+// dengan adanya props kita dapat membuat satu component yang dapat digunakan lagi dengan konten yang berbeda

@@ -1,6 +1,11 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
 
+//secara keseluruhan saya belum paham yang dimaksud lifecycle namun
+// yang saya pahami lifecycle adalah sebuah cara agar DOM lebih terkonsep
+// dari segi syntax untuk membuat aplikasi yang interaktif dan realtime
+
+
 class Test extends React.Component {
     constructor(props) {
         super(props);

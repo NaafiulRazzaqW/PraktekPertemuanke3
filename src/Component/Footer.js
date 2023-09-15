@@ -1,4 +1,11 @@
 import React from "react";
+
+// Untuk Menangkap value yang dikasih dari luar componen maka dari itu 
+// diperlukan pemanggilan dengan mendeklarasikan props dibawah ini agar dapat 
+// digunakan
+
+
+
 const Footer = (props) => {
     return (
         <div>

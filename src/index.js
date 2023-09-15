@@ -11,14 +11,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 
-/*function HelloComponent() {
-  return HelloComponent
-}
+// function HelloComponent() {
+//   return HelloComponent
+// }
+
+// akan merender sebuah tag p dengan isi StateFullComponent
+// untuk merender beberapa component lebih baik menggunakan stateless
+// karena tidak terlalu merubah dari isi componen tersebut 
 class StateFullComponent extends React.Component {
   render() {
     return <p>StateFullComponent</p>
   }
-}*/
+}
 
 
 root.render(
